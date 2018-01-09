@@ -1,0 +1,11 @@
+@for $i from 1 through 14 {
+  .graphic-#{$i} {
+    background-color: nth($colors, $i);
+    color: $text-graphic;
+    text-align: center;
+  }
+}
+
+.grid{
+  margin: 5rem auto;
+}
